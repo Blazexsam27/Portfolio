@@ -1,0 +1,45 @@
+.midContainer {
+  display: flex;
+  position: relative;
+  height: 60vh;
+  max-width: 100vw;
+  background-color: rgb(32, 4, 65);
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  color: white;
+  padding: 10px;
+  margin: 4rem 20px 20px 50px;
+  align-items: center;
+}
+
+.bio {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+.customBtn {
+  background-color: #7501a3;
+  padding: 10px 32px;
+
+  border-radius: 8px;
+  color: white;
+  border: none;
+  text-align: center;
+}
+
+.customBtn:hover {
+  background-color: rgb(112, 7, 112);
+  color: #f3dcb8;
+}
+
+@media screen and (min-width: 500px) {
+  .content {
+    color: white;
+    padding: 10px;
+    margin: 6rem 20px 20px 50px;
+    align-items: center;
+  }
+}
