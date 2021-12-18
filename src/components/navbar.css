@@ -1,0 +1,15 @@
+.socialIcon {
+  fill: black;
+}
+
+.socialIcon:hover {
+  fill: blue;
+}
+
+.nav-item {
+  color: black;
+}
+
+.nav-item:hover {
+  color: blue;
+}

@@ -1,6 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import mycart_logo from "./assets/images/mycart_logo.png";
+import text_utils from "./assets/images/text_utils.png";
+import brain_teaser from "./assets/images/brain_teaser.png";
+import jazz_chat from "./assets/images/jazz_chat.png";
+import jesture from "./assets/images/jesture.png";
 import "./projects.css";
 
 export default function Projects() {
@@ -57,7 +61,7 @@ export default function Projects() {
             <div className="col">
               <div className="card shadow-sm">
                 <div className="cardImageContainer">
-                  <img src={mycart_logo} alt="" className="cardImageView" />
+                  <img src={jesture} alt="" className="cardImageView" />
                 </div>
 
                 <div className="card-body">
@@ -87,7 +91,7 @@ export default function Projects() {
             <div className="col">
               <div className="card shadow-sm">
                 <div className="cardImageContainer">
-                  <img src={mycart_logo} alt="" className="cardImageView" />
+                  <img src={text_utils} alt="" className="cardImageView" />
                 </div>
 
                 <div className="card-body">
@@ -117,7 +121,7 @@ export default function Projects() {
             <div className="col">
               <div className="card shadow-sm">
                 <div className="cardImageContainer">
-                  <img src={mycart_logo} alt="" className="cardImageView" />
+                  <img src={jazz_chat} alt="" className="cardImageView" />
                 </div>
 
                 <div className="card-body">
@@ -148,7 +152,7 @@ export default function Projects() {
             <div className="col">
               <div className="card shadow-sm">
                 <div className="cardImageContainer">
-                  <img src={mycart_logo} alt="" className="cardImageView" />
+                  <img src={brain_teaser} alt="" className="cardImageView" />
                 </div>
                 <div className="card-body">
                   <h5>Brain Teaser</h5>

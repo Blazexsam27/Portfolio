@@ -1,9 +1,17 @@
+.arrowIcon {
+  fill: white;
+}
+
+.arrowIcon:hover {
+  fill: lime;
+}
+
 .midContainer {
   display: flex;
   position: relative;
   height: 60vh;
   max-width: 100vw;
-  background-color: rgb(32, 4, 65);
+  background-color: #0a8de4;
   margin: 0;
   padding: 0;
 }
@@ -17,11 +25,12 @@
 
 .bio {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
+  color: #ffffff;
 }
 
 .customBtn {
-  background-color: #7501a3;
+  background-color: #0437a5;
   padding: 10px 32px;
 
   border-radius: 8px;
@@ -31,8 +40,8 @@
 }
 
 .customBtn:hover {
-  background-color: rgb(112, 7, 112);
-  color: #f3dcb8;
+  background-color: #00dbf8e5;
+  color: #050505;
 }
 
 @media screen and (min-width: 500px) {
