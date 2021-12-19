@@ -5,36 +5,40 @@ import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <>
-      <div className="midContainer">
-        <div className="content">
-          <h1>Hi! I am Sanju Raj Prasad</h1>
-          <p className="bio">
-            Software Developer (Django, ReactJS, Angular, Python), <br />
-            Flutter Developer (UI Designing, Frontend Development) <br />
-          </p>
-          <Link to="/projects">
-            <button className="customBtn">
-              Explore
-              <svg
-                style={{ margin: "4px" }}
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fillRule="currentColor"
-                className="bi bi-arrow-right arrowIcon"
-                viewBox="0 0 16 16"
+      <div
+        className="text-secondary px-4 py-5 text-center"
+        style={{ backgroundColor: "#196ffa" }}
+      >
+        <div className="py-5">
+          <h1 className="display-5 fw-bold text-white">
+            Hi! I am Sanju Raj Prasad
+          </h1>
+          <div className="col-lg-6 mx-auto">
+            <p className="fs-5 mb-4 text-white">
+              Software Developer (Django, ReactJS, Angular, Python), <br />
+              Flutter Developer (UI Designing, Frontend Development) <br />
+            </p>
+            <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <Link
+                type="button"
+                className="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold"
+                to="/projects"
               >
-                <path
-                  fillRule="evenodd"
-                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                />
-              </svg>
-            </button>
-          </Link>
+                Projects
+              </Link>
+              <Link
+                to="/blog"
+                type="button"
+                className="btn btn-outline-light btn-lg px-4"
+              >
+                Blogs
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div className="px-4 py-5 my-5 text-center">
+      <div id={"about_section"} className="px-4 py-5 my-5 text-center">
         <div className="col-lg-6 mx-auto">
           <p className="lead mb-4 my-4">
             I have been learning programming and software development since

@@ -13,3 +13,8 @@
 .nav-item:hover {
   color: blue;
 }
+
+.navitemContainer {
+  border-radius: 8px;
+  padding: 26px;
+}
