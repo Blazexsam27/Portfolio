@@ -5,12 +5,9 @@ import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <>
-      <div
-        className="text-secondary px-4 py-5 text-center"
-        style={{ backgroundColor: "#196ffa" }}
-      >
-        <div className="py-5">
-          <h1 className="display-5 fw-bold text-white">
+      <div className="text-secondary px-4 py-5 text-center midContainer">
+        <div className="py-5 content">
+          <h1 className="display-5 fw-bold text-white ">
             Hi! I am Sanju Raj Prasad
           </h1>
           <div className="col-lg-6 mx-auto">
@@ -38,7 +35,10 @@ export default function Home() {
         </div>
       </div>
 
-      <div id={"about_section"} className="px-4 py-5 my-5 text-center">
+      {/* <div
+        id={"about_section"}
+        className="px-4 py-5 my-5 text-center bottomContainer"
+      >
         <div className="col-lg-6 mx-auto">
           <p className="lead mb-4 my-4">
             I have been learning programming and software development since
@@ -105,6 +105,27 @@ export default function Home() {
             </Link>
           </div>
         </div>
+      </div> */}
+
+      <div className="bottomContainer">
+        <p>
+          I have been learning programming and software development since 2016,
+          and during this period i have created a lot of projects some of them
+          are uploaded at github as an open source contribution, (You can
+          checkout Projects page for more information). <br />
+          <br />
+          <strong>Achievements:</strong>
+          <br />
+          Level 3 Coder at codechef. <br />
+          4 Star problem solver on Hackerrank. <br />
+          5+ Open Source software contributions. <br />
+          Former Coding Blocks Student Ambassador. <br />
+          Global Rank 82 in codechef November challenge. <br />
+          Created backend data manipulation logic and data analytic graphs for
+          shopify. <br />
+          Created real time sign language detector using tensorflow transfer
+          learning and ssd_mobile_net. <br />
+        </p>
       </div>
     </>
   );

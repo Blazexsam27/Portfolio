@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .arrowIcon {
   fill: white;
 }
@@ -10,17 +14,22 @@
   display: flex;
   position: relative;
   height: 60vh;
-  max-width: 100vw;
+  width: 100%;
   background-color: #0a8de4;
-  margin: 0;
-  padding: 0;
+  justify-content: center;
+  align-items: center;
 }
 
 .content {
   color: white;
   padding: 10px;
-  margin: 5rem 20px 20px 50px;
-  align-items: center;
+}
+
+.bottomContainer {
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: center;
 }
 
 .bio {
@@ -32,7 +41,6 @@
 .customBtn {
   background-color: #0437a5;
   padding: 10px 32px;
-
   border-radius: 8px;
   color: white;
   border: none;
@@ -44,11 +52,19 @@
   color: #050505;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 350px) {
   .content {
     color: white;
-    padding: 10px;
-    margin: 6rem 20px 20px 50px;
     align-items: center;
+  }
+
+  .midContainer {
+    height: 80vh;
+    width: 100%;
+    background-color: lime;
+  }
+
+  .bottomContainer {
+    width: 100%;
   }
 }
