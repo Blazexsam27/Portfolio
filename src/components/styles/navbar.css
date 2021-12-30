@@ -17,4 +17,6 @@
 .navitemContainer {
   border-radius: 8px;
   padding: 26px;
+  background-color: white;
+  z-index: 3;
 }

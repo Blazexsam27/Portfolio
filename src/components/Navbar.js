@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import "./navbar.css";
+import "./styles/navbar.css";
 
 export default function Navbar() {
   return (
     <>
       <nav
+      id="navbar"
         className="navbar navbar-expand-lg navbar-light"
-        style={{ height: "90px" }}
+        style={{minHeight: "90px"}}
       >
         <div className="container-fluid">
           <Link to="/" className="navbar-brand">

@@ -5,7 +5,7 @@ import text_utils from "./assets/images/text_utils.png";
 import brain_teaser from "./assets/images/brain_teaser.png";
 import jazz_chat from "./assets/images/jazz_chat.png";
 import jesture from "./assets/images/jesture.png";
-import "./projects.css";
+import "./styles/projects.css";
 
 export default function Projects() {
   return (

@@ -1,3 +1,7 @@
+*{
+  font-family: 'PT Sans', sans-serif;
+}
+
 body {
   margin: 0;
 }
@@ -12,6 +16,7 @@ body {
 
 .midContainer {
   display: flex;
+  flex-direction: column;
   position: relative;
   height: 60vh;
   width: 100%;
@@ -25,11 +30,17 @@ body {
   padding: 10px;
 }
 
-.bottomContainer {
+.bottomContainer1 {
   display: flex;
   position: relative;
   width: 100%;
   justify-content: center;
+  padding: 10px 300px;
+  text-align: center;
+}
+.bottomContainer1 p{
+  font-size: 20px;
+  color: rgb(92, 89, 89);
 }
 
 .bio {
@@ -52,19 +63,19 @@ body {
   color: #050505;
 }
 
-@media screen and (max-width: 350px) {
-  .content {
-    color: white;
-    align-items: center;
-  }
-
-  .midContainer {
-    height: 80vh;
-    width: 100%;
-    background-color: lime;
-  }
-
-  .bottomContainer {
-    width: 100%;
-  }
+#achievements{
+  display: flex;
+  justify-content: center;
 }
+
+.heading{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.center{
+  margin: auto;
+  display: block;
+}
+
+
