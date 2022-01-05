@@ -1,25 +1,23 @@
 @media screen and (max-width: 980px) {
-    .content {
-      color: white;
-      font-size: 12px;
-    }
-  
-    .midContainer {
-      height: 80vh;
-      width: 100%;
-      background-color: lime;
-      flex-direction: column;
-    }
-  
-    .bottomContainer1 {
-      flex-direction: column;
-      padding: 5px 10px;
-    }
-
-    
-    .bottomContainer1 p{
-      font-size: 15px;
-      font-weight: bold;
-    }
-
+  .content {
+    color: white;
+    font-size: 12px;
   }
+
+  .midContainer {
+    height: 80vh;
+    width: 100%;
+    background-color: #002bb8;
+    flex-direction: column;
+  }
+
+  .bottomContainer1 {
+    flex-direction: column;
+    padding: 5px 10px;
+  }
+
+  .bottomContainer1 p {
+    font-size: 15px;
+    font-weight: bold;
+  }
+}

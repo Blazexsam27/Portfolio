@@ -1,0 +1,15 @@
+#blogHeader {
+  background-color: #07c900;
+  display: flex;
+  justify-content: center;
+}
+
+#blogHeader div {
+  width: 80%;
+}
+
+@media screen and (max-width: 980px) {
+  #blogHeader {
+    background-color: #84006a;
+  }
+}

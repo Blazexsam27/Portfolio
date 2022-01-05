@@ -1,13 +1,11 @@
 import React from "react";
+import "./styles/Blog.css";
 
 export default function Blog() {
   return (
     <>
       <div className="container my-4">
-        <div
-          className="p-4 p-md-5 mb-4 text-white rounded"
-          style={{ backgroundColor: "#07c900" }}
-        >
+        <div className="p-4 p-md-5 mb-4 text-white rounded" id="blogHeader">
           <div className="col-md-6 px-0">
             <h1 className="display-8 fst-italic">
               Blog Posts Daily / Weekly / Monthly. I Don't Really Know
