@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import mycart_logo from "./assets/images/mycart_logo.png";
 import text_utils from "./assets/images/text_utils.png";
 import brain_teaser from "./assets/images/brain_teaser.png";
+import blaze_store from "./assets/images/blaze-store.png";
 import jazz_chat from "./assets/images/jazz_chat.png";
 import jesture from "./assets/images/jesture.png";
 import "./styles/projects.css";
@@ -179,6 +180,36 @@ export default function Projects() {
               </div>
             </div>
             {/* Project 6 */}
+
+            <div className="col">
+              <div className="card shadow-sm">
+                <div className="cardImageContainer">
+                  <img src={blaze_store} alt="" className="cardImageView" />
+                </div>
+                <div className="card-body">
+                  <h5>Blaze Store (Ongoing)</h5>
+                  <p className="card-text">
+                    A Huge online store for custom web components created using
+                    HTML, CSS & JS. The components are completely free and open
+                    source. And probably will add feature to upload own
+                    creations...
+                  </p>
+                  <div className="d-flex justify-content-between align-items-center">
+                    <div className="btn-group">
+                      <Link to="//github.com/Blazexsam27/blaze-store/tree/master">
+                        <button
+                          type="button"
+                          className="btn btn-sm btn-outline-secondary"
+                        >
+                          View
+                        </button>
+                      </Link>
+                    </div>
+                    <small className="text-muted">25/02/2022</small>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

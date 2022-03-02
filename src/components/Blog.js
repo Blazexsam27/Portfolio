@@ -19,6 +19,7 @@ export default function Blog() {
           </div>
         </div>
 
+        {/* BLOG 1 */}
         <div className="row mb-2">
           <div className="col-md-6">
             <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
@@ -45,6 +46,8 @@ export default function Blog() {
               </div>
             </div>
           </div>
+          {/* BLOG 2 */}
+
           <div className="col-md-6">
             <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
               <div className="col p-4 d-flex flex-column position-static">
@@ -63,6 +66,31 @@ export default function Blog() {
                 <a
                   target="_blank"
                   href="https://www.linkedin.com/post/edit/6877129837811646464/"
+                  className="stretched-link"
+                >
+                  Continue reading
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* BLOG 3 */}
+          <div className="col-md-6">
+            <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div className="col p-4 d-flex flex-column position-static">
+                <strong className="d-inline-block mb-2 text-success">
+                  Tutorial
+                </strong>
+                <h3 className="mb-0">Setup Web Socket (NODE.JS)</h3>
+                <div className="mb-1 text-muted">26/02/2022</div>
+                <p className="mb-auto">
+                  One of the must known feature of nodejs, to set up a web
+                  socket for realtime client server communication, it is very
+                  simple ...
+                </p>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/pulse/set-up-web-socket-nodejs-sanju-raj/"
                   className="stretched-link"
                 >
                   Continue reading
