@@ -78,7 +78,7 @@ export default function Home() {
               </div>
               <br />
               <div className="bottomContainer1">
-                <p>Email Id: samblaze265@gmail.com<br />
+                <p>Email Id: samblaze275@gmail.com<br />
                 Github: <Link to="//github.com/Blazexsam27">https://github.com/Blazexsam27</Link> <br/>
                 Instagram: <Link to="//www.instagram.com/blazexsam_dev/">https://www.instagram.com/blazexsam_dev/</Link> <br/>
                 LinkedIn: <Link to="//www.linkedin.com/in/sanju-raj-6335aa184/">https://www.linkedin.com/in/sanju-raj-6335aa184/</Link></p><br/>
