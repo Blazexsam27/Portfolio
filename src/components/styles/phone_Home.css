@@ -9,6 +9,12 @@
     width: 100%;
     background-color: #002bb8;
     flex-direction: column;
+    transition: 0.5s;
+  }
+
+  .midContainer:hover {
+    background-color: black;
+    transition: 0.5s;
   }
 
   .bottomContainer1 {

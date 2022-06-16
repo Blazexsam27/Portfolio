@@ -5,10 +5,12 @@ import { Routes, Link, Route } from "react-router-dom";
 import Projects from "./components/Projects";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
+import AnimatedCursor from "react-animated-cursor";
 
 function App() {
   return (
     <>
+      <AnimatedCursor />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

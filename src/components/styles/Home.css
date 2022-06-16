@@ -1,5 +1,5 @@
-*{
-  font-family: 'PT Sans', sans-serif;
+* {
+  font-family: "PT Sans", sans-serif;
 }
 
 body {
@@ -23,6 +23,13 @@ body {
   background-color: #0a8de4;
   justify-content: center;
   align-items: center;
+  transition: 0.5s;
+}
+
+.midContainer:hover {
+  background-color: #002c49;
+  transition: 0.5s;
+  text-shadow: 0.7px 0.7px rgb(143, 242, 255);
 }
 
 .content {
@@ -38,7 +45,7 @@ body {
   padding: 10px 300px;
   text-align: center;
 }
-.bottomContainer1 p{
+.bottomContainer1 p {
   font-size: 20px;
   color: rgb(92, 89, 89);
 }
@@ -63,19 +70,17 @@ body {
   color: #050505;
 }
 
-#achievements{
+#achievements {
   display: flex;
   justify-content: center;
 }
 
-.heading{
+.heading {
   font-size: 28px;
   font-weight: bold;
 }
 
-.center{
+.center {
   margin: auto;
   display: block;
 }
-
-
