@@ -1,0 +1,83 @@
+.projectContainer{
+    display: grid;
+    position: relative;
+}
+.projectContainer .project-desc{
+    padding: 20px 80px;
+}
+
+.projectContainer p{
+    text-align: center;
+}
+
+.projectContainer p.header{
+    font-size: 44px;
+}
+
+.project-img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.project-img img{
+    width: 450px;
+    height: 250px;
+    transition: 0.3s;
+    border: 2px solid rgb(214, 214, 214);
+    margin: 5px;
+    padding: 3px;
+    border-radius: 5px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: .2s ;
+}
+
+.project-img img:hover{
+    transform: scale(1.1);
+}
+
+.no-display{
+    display: none;
+}
+
+.show-display{
+    display: block;
+}
+.projectContainer .popup-img{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+}
+
+.projectContainer .popup-img img{
+    width: 750px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #fff;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.projectContainer .popup-img span{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    color: #fff;
+}
+
+@media(max-width:768px){
+    .projectContainer .popup-img img{
+        width: 95%;
+    }
+}
