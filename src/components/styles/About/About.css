@@ -57,6 +57,8 @@
     flex-basis: 6%;
     padding: 15px;
     cursor: pointer;
+    min-width: 80px;
+    min-height: 90px;
 }
 
 .bottom-about-section .skills-container div .skill-text{

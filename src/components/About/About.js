@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/About/About.css";
-import crypto_expert_logo from "../../assets/images/logos/crypto_expert_logo.png";
+import portfolio_pic from "../../assets/images/portfolio.png";
 import ProgressBar from "../Widgets/ProgressBar";
 
 export default function About() {
@@ -22,7 +22,7 @@ export default function About() {
         ABOUT <span>ME</span>
       </p>
       <div className="about-container">
-        <img src={crypto_expert_logo} alt="" />
+        <img src={portfolio_pic} alt="" />
         <section className="about-text">
           <div className="text">
             I have been learning programming and software development since
