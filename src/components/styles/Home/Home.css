@@ -1,0 +1,27 @@
+.home-container{
+    display: flex;
+    justify-content: start;
+}
+
+.home-container .intro-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 10rem 10rem;
+}
+
+.home-container .intro-container .intro-text{
+    font-family: var(--ubuntu-font);
+    font-size: 2.5rem;
+    color: var(--header-color);
+
+}
+.home-container .intro-container .name{
+    font-family: var(--source-sans-font);
+    font-size: 8rem;
+    color: var(--subheader-color);
+}
+
+.home-container .intro-image{
+    
+}
