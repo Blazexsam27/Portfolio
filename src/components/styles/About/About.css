@@ -21,19 +21,7 @@
 .about-container{
     display: flex;
     justify-content: space-between;
-    padding: 2rem 10rem;
-}
-
-.about-container .about-text{
-    display: flex;
-    flex-direction: column;
-    width: 45%;
-    padding: 10rem;
-}
-
-.about-container .about-text .text{
-    font-size: 1.5rem;
-    color: var(--subheader-color);
+    padding: 2rem 8rem;
 }
 
 .about-container img{
@@ -41,6 +29,63 @@
     object-fit: contain;
 }
 
+.about-container .about-text{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding: 8rem;
+    flex-wrap: wrap;
+}
+
+.about-container .about-text .text{
+    font-size: 2rem;
+    color: var(--subheader-color);
+}
+
+.bottom-about-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-about-section .skills-container{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+}
+
+.bottom-about-section .skills-container div{
+    flex-basis: 6%;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.bottom-about-section .skills-container div .skill-text{
+    font-size: 1.5rem;
+    color: var(--header-color);
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.bottom-about-section .achievements{
+    background: #171e24;
+    padding: 20px;
+}
+
+.bottom-about-section .achievements .achievements-header{
+    font-size: 4rem;
+    color: var(--header-color);
+    text-align: center;
+    
+}
+
+.bottom-about-section .achievements .achievements-text{
+    text-align: center;
+    font-size: 2rem;
+    color: var(--subheader-color);
+    padding: 10px;
+    font-family: var(--titllium-ital);
+}
 
 @media (max-width: 1250px){
     .about-container{

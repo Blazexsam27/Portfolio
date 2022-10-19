@@ -1,0 +1,21 @@
+.error-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.error-container img{
+    object-fit: contain;
+    width: 30%;
+    height: 30%;
+}
+
+.error-container .message{
+    font-size: 4rem;
+    color: var(--subheader-color);
+}
+
+.error-container .message a{
+    color: aqua;
+}

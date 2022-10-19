@@ -16,22 +16,22 @@ export default function Navbar() {
           <Link to={"/about"}>
             <li>About</li>
           </Link>
-          <Link to={"/contact"}>
-            <li>Contact</li>
-          </Link>
         </ul>
         <ul>
-          <Link to={"#"}>
+          <Link to={"//github.com/Blazexsam27"} target="_blank">
             <li>
               <i className="zmdi zmdi-github-alt"></i>
             </li>
           </Link>
-          <Link to={"#"}>
+          <Link to={"//www.instagram.com/blazexsam_dev/"} target="_blank">
             <li>
               <i className="zmdi zmdi-instagram"></i>
             </li>
           </Link>
-          <Link to={"#"}>
+          <Link
+            to={"//www.linkedin.com/in/sanju-raj-6335aa184/"}
+            target="_blank"
+          >
             <li>
               <i className="zmdi zmdi-linkedin"></i>
             </li>
