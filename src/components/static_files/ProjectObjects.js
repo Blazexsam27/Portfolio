@@ -35,9 +35,8 @@ const BlazeStore = {
   title: "BlazeStore",
   sneakpeek: `A Huge online store for custom web components created using
   HTML, CSS & JS. The components are completely free and open
-  source. And probably will add feature to upload own
-  creations...`,
-  description1: `
+  source...`,
+  description: `
         BlazeStore is an online CSS component market built using ReactJS + Django, with postgresql database. It 
         offers a lot of awesome CSS component built using vanilla CSS3 which are completely editable and are completely
         free to use.

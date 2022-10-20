@@ -14,7 +14,9 @@ export default function Project() {
   return (
     <>
       <div className="project-page-intro">
-        <p className="project-page-header">My Projects</p>
+        <p className="project-page-header">
+          MY <span>PROJECTS</span>
+        </p>
         <p className="project-page-desc">
           Here are some of the open source project which I built using various
           technologies. You can find the complete source code by visiting the

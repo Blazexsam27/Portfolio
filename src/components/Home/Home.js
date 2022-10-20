@@ -7,6 +7,10 @@ import "../styles/Home/Home.css";
 export default function Home() {
   return (
     <div className="home-container">
+      <div className="intro-image">
+        <img src={splash} alt="" className="splash" />
+        <img src={portfolio_pic} className="profile-pic" />
+      </div>
       <div className="intro-container">
         <p className="intro-text">Hi! I AM</p>
         <div className="name">
@@ -16,11 +20,18 @@ export default function Home() {
             }}
           />
         </div>
-        <p className="intro-text">AND I AM A WEB DEVELOPER</p>
-      </div>
-      <div className="intro-image">
-        <img src={splash} alt="" className="splash" />
-        <img src={portfolio_pic} className="profile-pic" />
+        <p className="intro-text">
+          <TypeWriter
+            onInit={(typewriter) => {
+              typewriter
+                .typeString("AND I AM A UI DESIGNER")
+                .pauseFor(1000)
+                .deleteChars(11)
+                .typeString("WEB DEVELOPER")
+                .start();
+            }}
+          />
+        </p>
       </div>
     </div>
   );

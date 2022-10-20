@@ -13,6 +13,11 @@
     font-family: var(--source-sans-font);
     color: var(--subheader-color);
 }
+
+.project-page-intro .project-page-header span{
+    color: var(--header-color);
+}
+
 .project-page-intro .project-page-desc{
     font-size: 2rem;
     margin: 1rem 30rem;
