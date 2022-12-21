@@ -5,11 +5,14 @@ import {
   CryptoExpert,
   FirstNews,
   BlazeStore,
+  TextUtil,
+  LeaveManagement,
 } from "../static_files/ProjectObjects";
 import "../styles/Project/Project.css";
 
 export default function Project() {
-  const ProjectList = [MyCart, CryptoExpert, BlazeStore, FirstNews];
+  const projectList = [MyCart, CryptoExpert, BlazeStore, FirstNews];
+  const miniProjectList = [TextUtil, LeaveManagement];
 
   return (
     <>
@@ -24,12 +27,28 @@ export default function Project() {
         </p>
       </div>
       <div className="project-container">
-        {ProjectList.map((item) => {
+        {projectList.map((item) => {
           return (
             <ProjectCard
               title={item.title}
               sneakpeek={item.sneakpeek}
               logo={item.logo}
+              date={item.date}
+            />
+          );
+        })}
+      </div>
+      <p className="mini-project-header">
+        MINI <span>PROJECTS</span>
+      </p>
+      <div className="project-container">
+        {miniProjectList.map((item) => {
+          return (
+            <ProjectCard
+              title={item.title}
+              sneakpeek={item.sneakpeek}
+              logo={item.logo}
+              date={item.date}
             />
           );
         })}

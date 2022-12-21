@@ -6,6 +6,7 @@ import {
   CryptoExpert,
   FirstNews,
   BlazeStore,
+  LeaveManagement,
 } from "../static_files/ProjectObjects";
 import { useLocation } from "react-router-dom";
 import "../styles/Project/ProjectView.css";
@@ -19,6 +20,9 @@ import cryptoexpert3 from "../../assets/images/CryptoExpert/cryptoexpert3.png";
 import firstnews1 from "../../assets/images/FirstNews/firstnews1.png";
 import firstnews2 from "../../assets/images/FirstNews/firstnews2.png";
 import firstnews3 from "../../assets/images/FirstNews/firstnews3.png";
+import leavemanagement1 from "../../assets/images/LeaveManagement/home.PNG";
+import leavemanagement2 from "../../assets/images/LeaveManagement/sign-in.PNG";
+import leavemanagement3 from "../../assets/images/LeaveManagement/listing.PNG";
 
 export default function ProjectView() {
   const location = useLocation();
@@ -51,6 +55,10 @@ export default function ProjectView() {
     if (title === "FirstNews") {
       setProject(FirstNews);
       setPreviewImages([firstnews1, firstnews2, firstnews3]);
+    }
+    if (title == "LeaveManagement") {
+      setProject(LeaveManagement);
+      setPreviewImages([leavemanagement1, leavemanagement2, leavemanagement3]);
     }
   };
 

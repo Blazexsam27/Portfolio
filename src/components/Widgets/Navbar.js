@@ -29,7 +29,7 @@ export default function Navbar() {
             </li>
           </Link>
           <Link
-            to={"//www.linkedin.com/in/sanju-raj-6335aa184/"}
+            to={"//www.linkedin.com/in/sanju-raj-prasad-6335aa184/"}
             target="_blank"
           >
             <li>

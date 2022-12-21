@@ -3,6 +3,8 @@ const crypto_expert_logo = require("../../assets/images/logos/crypto_expert_logo
 const firstnews_logo = require("../../assets/images/logos/firstnews_logo.png");
 const mycart_logo = require("../../assets/images/logos/mycart_logo.png");
 const blazestore_logo = require("../../assets/images/logos/blazestore_logo.png");
+const text_util_logo = require("../../assets/images/logos/text_util.png");
+const leave_management_logo = require("../../assets/images/logos/leave_management.png");
 
 const FirstNews = {
   title: "FirstNews",
@@ -16,6 +18,7 @@ const FirstNews = {
     Completely responsive for all type of screens.
       `,
   logo: firstnews_logo,
+  date: "22/10/2022",
 };
 
 const MyCart = {
@@ -29,6 +32,7 @@ const MyCart = {
           The front-end UI is built using CSS3 and Bootstrap5 and is perfectly responsive for all type of devices.
       `,
   logo: mycart_logo,
+  date: "12/08/2021",
 };
 
 const BlazeStore = {
@@ -44,6 +48,7 @@ const BlazeStore = {
         user authentication.
     `,
   logo: blazestore_logo,
+  date: "30/06/2022",
 };
 
 const CryptoExpert = {
@@ -58,6 +63,41 @@ const CryptoExpert = {
           statistics and predict the outcome for next few days.
       `,
   logo: crypto_expert_logo,
+  date: "Ongoing",
 };
 
-module.exports = { MyCart, CryptoExpert, FirstNews, BlazeStore };
+const TextUtil = {
+  title: "Text Util",
+  sneakpeek: `A text utility web application built using reactjs, have features like plagiarism check, basic text
+  statistics, blank space removal ...`,
+  description: `
+    A text utility web application built using reactjs, have features like plagiarism check, basic text
+    statistics, blank space removal, case conversion etc. 
+    It also has light theme and dark theme, capable of checking 5000+ words for plagiarism at once.
+      `,
+  logo: text_util_logo,
+  date: "02/05/2021",
+};
+
+const LeaveManagement = {
+  title: "LeaveManagement",
+  sneakpeek: `An online web application to manage leaves of employees, have authentication features and refresh token
+  system, basic table to show all applied leaves ...`,
+  description: `
+  An online web application to manage leaves of employees, have authentication features and refresh token
+  system, basic table to show all applied leaves.
+  Easy leave creation and updation facility, custom filters for list of leaves of a particular employee.
+  The web application is built using ReactJs + ExpressJs + Mongodb and is highly scalable.
+      `,
+  logo: leave_management_logo,
+  date: "22/10/2022",
+};
+
+module.exports = {
+  MyCart,
+  CryptoExpert,
+  FirstNews,
+  BlazeStore,
+  TextUtil,
+  LeaveManagement,
+};

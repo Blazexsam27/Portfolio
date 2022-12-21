@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "../styles/Project/ProjectCard.css";
 
 export default function ProjectCard(props) {
-  const { title, sneakpeek, logo } = props;
+  const { title, sneakpeek, logo, date } = props;
   return (
     <div className="project-card-container" key={title}>
       <img className="card-image" src={logo} />
@@ -13,7 +13,7 @@ export default function ProjectCard(props) {
         <Link to={"/projectView"} state={{ title: title }}>
           <div className="card-button">Read More</div>
         </Link>
-        <div className="card-date">12/12/32</div>
+        <div className="card-date">{date}</div>
       </section>
     </div>
   );
