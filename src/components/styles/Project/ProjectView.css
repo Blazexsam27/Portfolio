@@ -7,6 +7,22 @@
     font-size: 2rem;
     color: #dcdde1;
 }
+.projectContainer .host-link{
+    padding: 2rem 8rem;
+    font-size: 2rem;
+    color: #dcdde1;
+    cursor: pointer;transition: 0.5s;
+}
+
+.projectContainer .host-link span{
+    color: white;
+}
+
+
+.projectContainer .host-link:hover{
+    color: gray;
+    transition: 0.5s;
+}
 
 .projectContainer p{
     text-align: center;

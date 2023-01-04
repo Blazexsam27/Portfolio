@@ -1,10 +1,10 @@
 // All the project objects are here :-
 const crypto_expert_logo = require("../../assets/images/logos/crypto_expert_logo.png");
 const firstnews_logo = require("../../assets/images/logos/firstnews_logo.png");
-const mycart_logo = require("../../assets/images/logos/mycart_logo.png");
 const blazestore_logo = require("../../assets/images/logos/blazestore_logo.png");
 const text_util_logo = require("../../assets/images/logos/text_util.png");
 const leave_management_logo = require("../../assets/images/logos/leave_management.png");
+const getgood_logo = require("../../assets/images/logos/getgood_logo.png");
 
 const FirstNews = {
   title: "FirstNews",
@@ -21,17 +21,18 @@ const FirstNews = {
   date: "22/10/2022",
 };
 
-const MyCart = {
-  title: "MyCart",
+const GetGood = {
+  title: "GetGood",
   sneakpeek: `An ecommerce website built using django framework, it
     supports order placement, order tracking, order cancellation
     and many more features.`,
   description: `
-          MyCart is an e-commerce web application built using ReactJS and Django rest framework. 
-          It is capable of product management and cart management along with an admin panel with CRUD operation.
-          The front-end UI is built using CSS3 and Bootstrap5 and is perfectly responsive for all type of devices.
+  GetGood is an e-commerce single page web application built using ReactJs. 
+          It is capable of product management, cart management, category and price filters, shipment tracking, customer query support.
+          The front-end UI is built using CSS3 and react style components and is perfectly responsive for all type of devices.
       `,
-  logo: mycart_logo,
+  host: "get-good.netlify.app",
+  logo: getgood_logo,
   date: "12/08/2021",
 };
 
@@ -47,6 +48,7 @@ const BlazeStore = {
         The project is still ongoing and have future plans for implementing contributions of CSS components, and 
         user authentication.
     `,
+  host: "",
   logo: blazestore_logo,
   date: "30/06/2022",
 };
@@ -62,6 +64,7 @@ const CryptoExpert = {
           It uses CoinGecko.com to fetch data related to crypto currency market and uses that data to update
           statistics and predict the outcome for next few days.
       `,
+  host: "",
   logo: crypto_expert_logo,
   date: "Ongoing",
 };
@@ -75,6 +78,7 @@ const TextUtil = {
     statistics, blank space removal, case conversion etc. 
     It also has light theme and dark theme, capable of checking 5000+ words for plagiarism at once.
       `,
+  host: "",
   logo: text_util_logo,
   date: "02/05/2021",
 };
@@ -89,12 +93,13 @@ const LeaveManagement = {
   Easy leave creation and updation facility, custom filters for list of leaves of a particular employee.
   The web application is built using ReactJs + ExpressJs + Mongodb and is highly scalable.
       `,
+  host: "",
   logo: leave_management_logo,
   date: "22/10/2022",
 };
 
 module.exports = {
-  MyCart,
+  GetGood,
   CryptoExpert,
   FirstNews,
   BlazeStore,

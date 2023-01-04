@@ -2,15 +2,18 @@
 
 import React, { useEffect, useState } from "react";
 import {
-  MyCart,
+  GetGood,
   CryptoExpert,
   FirstNews,
   BlazeStore,
   LeaveManagement,
 } from "../static_files/ProjectObjects";
-import { useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import "../styles/Project/ProjectView.css";
 
+import getgood1 from "../../assets/images/GetGood/getgood1.PNG";
+import getgood2 from "../../assets/images/GetGood/getgood2.PNG";
+import getgood3 from "../../assets/images/GetGood/getgood3.PNG";
 import blazestore1 from "../../assets/images/BlazeStore/blazestore1.PNG";
 import blazestore2 from "../../assets/images/BlazeStore/blazestore2.PNG";
 import blazestore3 from "../../assets/images/BlazeStore/blazestore3.PNG";
@@ -40,9 +43,9 @@ export default function ProjectView() {
 
   const setProjectDetails = () => {
     let title = location.state.title;
-    if (title === "MyCart") {
-      setProject(MyCart);
-      setPreviewImages([blazestore1, blazestore2, blazestore3]);
+    if (title === "GetGood") {
+      setProject(GetGood);
+      setPreviewImages([getgood1, getgood2, getgood3]);
     }
     if (title === "CryptoExpert") {
       setProject(CryptoExpert);
@@ -90,6 +93,15 @@ export default function ProjectView() {
             onClick={handleImageClick}
           />
         </div>
+        {project.host ? (
+          <NavLink
+            target="_blank"
+            className="host-link"
+            to={"//" + project.host}
+          >
+            <span>Host:</span> {project.host}
+          </NavLink>
+        ) : null}
         <div className="project-desc">{project.description}</div>
         <div
           className={showPopup.show ? "popup-img show-display" : "no-display"}

@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import {
-  MyCart,
+  GetGood,
   CryptoExpert,
   FirstNews,
   BlazeStore,
@@ -11,7 +11,7 @@ import {
 import "../styles/Project/Project.css";
 
 export default function Project() {
-  const projectList = [MyCart, CryptoExpert, BlazeStore, FirstNews];
+  const projectList = [GetGood, CryptoExpert, BlazeStore, FirstNews];
   const miniProjectList = [TextUtil, LeaveManagement];
 
   return (
