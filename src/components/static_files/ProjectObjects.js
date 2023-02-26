@@ -5,6 +5,7 @@ const blazestore_logo = require("../../assets/images/logos/blazestore_logo.png")
 const text_util_logo = require("../../assets/images/logos/text_util.png");
 const leave_management_logo = require("../../assets/images/logos/leave_management.png");
 const getgood_logo = require("../../assets/images/logos/getgood_logo.png");
+const eduwebapp_logo = require("../../assets/images/logos/eduwebapp_logo.png");
 
 const FirstNews = {
   title: "FirstNews",
@@ -98,11 +99,27 @@ const LeaveManagement = {
   date: "22/10/2022",
 };
 
+const EduWebApp = {
+  title: "EduWebApp",
+  sneakpeek: `An online educational platform consists a collection of most important topics for competitive
+  examiniation. Subject like litreture, apititude, science ...`,
+  description: `
+  An online educational platform consists a collection of most important topics for competitive
+  examiniation. Subject like litreture, apititude, science, gk etc. consisting of sub topics for 
+  easy to hard level of question. 
+  The website is built using ReactJs + ExpressJs + Mongodb and highgly scalable.
+  `,
+  host: "edu-web-app.netlify.app/",
+  logo: eduwebapp_logo,
+  date: "20/12/2022",
+};
+
 module.exports = {
   GetGood,
   CryptoExpert,
   FirstNews,
   BlazeStore,
   TextUtil,
+  EduWebApp,
   LeaveManagement,
 };

@@ -7,6 +7,7 @@ import {
   FirstNews,
   BlazeStore,
   LeaveManagement,
+  EduWebApp,
 } from "../static_files/ProjectObjects";
 import { NavLink, useLocation } from "react-router-dom";
 import "../styles/Project/ProjectView.css";
@@ -26,6 +27,9 @@ import firstnews3 from "../../assets/images/FirstNews/firstnews3.png";
 import leavemanagement1 from "../../assets/images/LeaveManagement/home.PNG";
 import leavemanagement2 from "../../assets/images/LeaveManagement/sign-in.PNG";
 import leavemanagement3 from "../../assets/images/LeaveManagement/listing.PNG";
+import eduwebapp1 from "../../assets/images/EduWebApp/eduwebapp1.PNG";
+import eduwebapp2 from "../../assets/images/EduWebApp/eduwebapp2.PNG";
+import eduwebapp3 from "../../assets/images/EduWebApp/eduwebapp3.PNG";
 
 export default function ProjectView() {
   const location = useLocation();
@@ -62,6 +66,10 @@ export default function ProjectView() {
     if (title == "LeaveManagement") {
       setProject(LeaveManagement);
       setPreviewImages([leavemanagement1, leavemanagement2, leavemanagement3]);
+    }
+    if (title == "EduWebApp") {
+      setProject(EduWebApp);
+      setPreviewImages([eduwebapp1, eduwebapp2, eduwebapp3]);
     }
   };
 

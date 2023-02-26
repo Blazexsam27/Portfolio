@@ -7,11 +7,12 @@ import {
   BlazeStore,
   TextUtil,
   LeaveManagement,
+  EduWebApp,
 } from "../static_files/ProjectObjects";
 import "../styles/Project/Project.css";
 
 export default function Project() {
-  const projectList = [GetGood, CryptoExpert, BlazeStore, FirstNews];
+  const projectList = [GetGood, CryptoExpert, BlazeStore, FirstNews, EduWebApp];
   const miniProjectList = [TextUtil, LeaveManagement];
 
   return (
