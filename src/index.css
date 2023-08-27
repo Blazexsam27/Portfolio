@@ -21,7 +21,10 @@ body {
   -webkit-font-smoothing: antialiased;
     height: 100vh;
     -moz-osx-font-smoothing: grayscale;
-    background: #2C3A47;
+    /* background: #2C3A47; */
+    background-image: url("./assets/sparkling_particle.gif");
+    background-size: cover;
+    margin: 0;
 }
 
 code {

@@ -6,11 +6,13 @@ import Project from "./components/Project/Project.js";
 import ProjectView from "./components/Project/ProjectView.js";
 import ErrorPage from "./components/Error/ErrorPage.js";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Background from "./components/Background";
 function App() {
   return (
     <>
       <BrowserRouter>
         <Navbar />
+        {/* <Background /> */}
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>

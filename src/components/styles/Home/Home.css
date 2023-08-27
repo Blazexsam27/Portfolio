@@ -1,6 +1,7 @@
 .home-container{
     display: flex;
     justify-content: space-between;
+    padding-top: 10rem;
 }
 
 .home-container .intro-container{

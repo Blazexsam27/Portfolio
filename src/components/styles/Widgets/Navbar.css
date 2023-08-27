@@ -5,9 +5,10 @@
 
 .navbar{
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     padding: 20px;
-    background: #2C3A47;
+    position: absolute;
+    width: 96%;
 }
 
 .navbar ul a{
@@ -31,4 +32,20 @@
 .navbar ul li:hover{
     transition: 0.4s;
     color: var(--header-color);
+}
+
+@media (max-width: 1200px){
+    .navbar{
+        width: 94%;
+    }
+}
+@media (max-width: 768px){
+    .navbar{
+        width: 94%;
+    }
+}
+@media (max-width: 550px){
+    .navbar{
+        width: 89%;
+    }
 }
